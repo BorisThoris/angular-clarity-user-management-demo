@@ -1,5 +1,6 @@
 {
-  "name": "demo",
+  "name": "angular-clarity-user-management-demo",
+  "description": "Angular 9 user-management demo with VMware Clarity UI, routing, localStorage-backed CRUD state, and reusable form components.",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

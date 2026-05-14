@@ -1,27 +1,30 @@
-# Demo
+# Angular Clarity User Management Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+A legacy Angular 9 portfolio demo for a small user-management workflow built with VMware Clarity UI. The app demonstrates Angular routing, reusable form components, localStorage-backed CRUD state, and Clarity-styled screens.
 
-## Development server
+## What it shows
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Angular module/routing structure.
+- VMware Clarity UI components.
+- Local user creation, editing, viewing, and deletion.
+- Parent/child component communication with `@Input` and `@Output`.
+- Basic image fallback handling for user avatars.
+- GitHub Pages-ready static build output.
 
-## Code scaffolding
+## Tech stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular 9
+- TypeScript
+- VMware Clarity
+- RxJS
 
-## Build
+## Run locally
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```bash
+npm install
+npm start
+```
 
-## Running unit tests
+## Legacy note
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This is an older demo project that has been preserved and reframed as a personal portfolio sample. It is not intended to represent a current production stack.
